@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2"
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5"
+    }
+  },
+  "locked": {
+    "jp.lilxyzw.liltoon": {
+      "version": "2.3.2",
+      "dependencies": {}
+    },
+    "com.vrchat.worlds": {
+      "version": "3.7.5",
+      "dependencies": {
+        "com.vrchat.base": "3.7.5"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.7.5",
+      "dependencies": {}
+    }
+  }
+}
