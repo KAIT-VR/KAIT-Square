@@ -1,5 +1,17 @@
 {
   "dependencies": {
+    "com.texelsaur.common": {
+      "version": "file:com.texelsaur.common",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.texelsaur.video": {
+      "version": "file:com.texelsaur.video",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.ai.navigation": {
       "version": "1.1.5",
       "depth": 1,
@@ -271,6 +283,12 @@
         "com.unity.ai.navigation": "1.1.5"
       }
     },
+    "jp.lilxyzw.avatar-utils": {
+      "version": "file:jp.lilxyzw.avatar-utils",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "jp.lilxyzw.liltoon": {
       "version": "file:jp.lilxyzw.liltoon",
       "depth": 0,
@@ -283,8 +301,8 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "s-ilent.filamented": {
-      "version": "file:s-ilent.filamented",
+    "vrchat.jordo.easyquestswitch": {
+      "version": "file:vrchat.jordo.easyquestswitch",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
