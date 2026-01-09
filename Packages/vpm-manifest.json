@@ -5,6 +5,24 @@
     },
     "com.vrchat.worlds": {
       "version": "3.7.5"
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29"
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.4.0"
+    },
+    "com.texelsaur.common": {
+      "version": "1.5.3"
+    },
+    "com.texelsaur.video": {
+      "version": "2.4.15"
+    },
+    "jp.lilxyzw.avatar-utils": {
+      "version": "2.0.0"
+    },
+    "la.niri.videoplayer": {
+      "version": "2.5.5"
     }
   },
   "locked": {
@@ -21,6 +39,34 @@
     "com.vrchat.base": {
       "version": "3.7.5",
       "dependencies": {}
+    },
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29",
+      "dependencies": {}
+    },
+    "vrchat.jordo.easyquestswitch": {
+      "version": "1.4.0",
+      "dependencies": {}
+    },
+    "com.texelsaur.common": {
+      "version": "1.5.3",
+      "dependencies": {}
+    },
+    "com.texelsaur.video": {
+      "version": "2.4.15",
+      "dependencies": {
+        "com.texelsaur.common": "^1.5.0"
+      }
+    },
+    "jp.lilxyzw.avatar-utils": {
+      "version": "2.0.0",
+      "dependencies": {}
+    },
+    "la.niri.videoplayer": {
+      "version": "2.5.5",
+      "dependencies": {
+        "com.vrchat.udonsharp": "^1.1.9"
+      }
     }
   }
 }
