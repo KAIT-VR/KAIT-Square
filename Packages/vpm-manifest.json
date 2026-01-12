@@ -1,13 +1,13 @@
 {
   "dependencies": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29"
+    },
     "jp.lilxyzw.liltoon": {
       "version": "2.3.2"
     },
     "com.vrchat.worlds": {
       "version": "3.7.5"
-    },
-    "com.vrchat.core.vpm-resolver": {
-      "version": "0.1.29"
     },
     "vrchat.jordo.easyquestswitch": {
       "version": "1.4.0"
@@ -23,9 +23,16 @@
     },
     "la.niri.videoplayer": {
       "version": "2.5.5"
+    },
+    "org.praecipua.ee": {
+      "version": "6.4.0"
     }
   },
   "locked": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.29",
+      "dependencies": {}
+    },
     "jp.lilxyzw.liltoon": {
       "version": "2.3.2",
       "dependencies": {}
@@ -38,10 +45,6 @@
     },
     "com.vrchat.base": {
       "version": "3.7.5",
-      "dependencies": {}
-    },
-    "com.vrchat.core.vpm-resolver": {
-      "version": "0.1.29",
       "dependencies": {}
     },
     "vrchat.jordo.easyquestswitch": {
@@ -67,6 +70,10 @@
       "dependencies": {
         "com.vrchat.udonsharp": "^1.1.9"
       }
+    },
+    "org.praecipua.ee": {
+      "version": "6.4.0",
+      "dependencies": {}
     }
   }
 }

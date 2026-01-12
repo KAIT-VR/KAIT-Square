@@ -309,6 +309,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "org.praecipua.ee": {
+      "version": "file:org.praecipua.ee",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "vrchat.jordo.easyquestswitch": {
       "version": "file:vrchat.jordo.easyquestswitch",
       "depth": 0,
