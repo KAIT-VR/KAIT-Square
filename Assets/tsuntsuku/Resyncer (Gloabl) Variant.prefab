@@ -37,16 +37,28 @@ PrefabInstance:
       value: ReloadAllGlobal
       objectReference: {fileID: 0}
     - target: {fileID: 6482420740792419497, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
+      propertyPath: url540p.url
+      value: rtsp://163.138.198.20:8554/nwlab-stream1-540
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482420740792419497, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
+      propertyPath: url1080p.url
+      value: rtsp://163.138.198.20:8554/nwlab-stream1-1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482420740792419497, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
+      propertyPath: url2160p.url
+      value: rtsp://163.138.198.20:8554/nwlab-stream1-2160
+      objectReference: {fileID: 0}
+    - target: {fileID: 6482420740792419497, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
       propertyPath: videoPlayers.Array.size
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6482420740792419497, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6482420740792419497, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
     - target: {fileID: 6482420740792419497, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
       propertyPath: serializationData.SerializedFormat
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6550968657545487775, guid: c4735fd9a60d58040b29cf45cdb7c820, type: 3}
       propertyPath: serializedProgramAsset
