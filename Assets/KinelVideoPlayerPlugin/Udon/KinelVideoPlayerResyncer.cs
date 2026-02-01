@@ -21,6 +21,9 @@ namespace KinelVideoPlayerPlugin.Udon
         [Header("外部制御（OSC）を有効にする")]
         [SerializeField] private bool externalControlEnabled = true;
 
+        private float jumpPressedTime = -1f;
+        private const float JUMP_HOLD_THRESHOLD = 0.2f; // 秒
+
         public void ResyncAll()
         {
             Debug.Log($"{DEBUG_PREFIX} ResyncAll");
@@ -123,5 +126,21 @@ namespace KinelVideoPlayerPlugin.Udon
                 SwitchTo(url2160p);
             }
         }
+
+        // Use: LEFT = Respawn
+        public override void InputUse(bool value, UdonInputEventArgs args)
+        {
+            if (!value) return;                 // 押された瞬間だけ
+            if (!externalControlEnabled) return;
+
+            if (args.handType == HandType.LEFT)
+            {
+                Debug.Log($"{DEBUG_PREFIX} InputUse LEFT → Respawn");
+
+                // 自分自身をリスポーン
+                Networking.LocalPlayer.Respawn();
+            }
+        }
+
     }
 }
